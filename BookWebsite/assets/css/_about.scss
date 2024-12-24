@@ -1,0 +1,118 @@
+.about {
+    padding-top: 160px;
+    padding-bottom: 5rem;
+    background: $color-normal;
+    .about-title {
+        h2 {
+            font-size: 28px;
+            color: $color-icon;
+            letter-spacing: 3px;
+            opacity: 0.9;
+        }
+        a {
+            text-decoration: none;
+            color: $color-light;
+            font-size: 16px;
+        }
+    }
+}
+.row-detail {
+    padding-top: 3rem;
+    h2 {
+        padding-top: 5rem;
+        font-size: 28px;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        p {
+            padding-top: 1rem !important ;
+            font-weight: 400;
+        }
+    }
+    img {
+        padding-left: 5rem;
+    }
+}
+
+.row-types {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    h5 {
+        font-size: 20px;
+        span {
+            opacity: 0.3;
+        }
+    }
+    p {
+        color: $color-icon;
+    }
+}
+
+.admin {
+    background-color: $color-normal;
+    padding-bottom: 4rem;
+    .testi-wrapper {
+        padding-top: 4rem;
+        display: flex;
+        justify-content: center;
+        .admin-image {
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .image-text{
+        padding-top: 1rem;
+        text-align: center;
+        h6{
+            font-size: 16px;
+            font-weight: bold;
+            span{
+                font-size: 12.8px;
+                font-weight: 400;
+            } 
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+.team{
+    .image-box{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .image-box-text{
+        padding: 2rem;
+        h2{
+            text-align: center;
+            font-size: 18px;
+        }
+        p{
+            font-size: small;
+            text-align: center;
+        }
+    }
+}
+
+.team{
+    padding-top: 3rem;
+    .team-title{
+        h2{
+            font-size: 24px;
+            text-transform: uppercase;
+            padding-bottom: 3rem;
+        }
+    }
+    .image-box-text{
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;    }
+
+}

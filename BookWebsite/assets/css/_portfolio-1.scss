@@ -1,0 +1,18 @@
+.portfolio {
+    padding-top: 160px;
+    padding-bottom: 5rem;
+    background: $color-normal;
+    .portfolio-title {
+        h2 {
+            font-size: 28px;
+            color: $color-icon;
+            letter-spacing: 3px;
+            opacity: 0.9;
+        }
+        a {
+            text-decoration: none;
+            color: $color-light;
+            font-size: 16px;
+        }
+    }
+}
